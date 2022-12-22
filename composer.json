@@ -1,0 +1,37 @@
+{
+    "name": "danack/php-unit-helper",
+    "description": "Small set of functions to use within PHPUnit.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Danack",
+            "email": "Danack@basereality.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "danack/coding-standard": "^0.3",
+        "squizlabs/php_codesniffer": "^3.3.1",
+        "yoast/yoastcs": "1.0",
+        "phpunit/phpunit": "9.5.4"
+    },
+    "autoload": {
+        "files": [
+            "src/Danack/PHPUnitHelper/functions.php"
+        ],
+        "psr-0": {
+            "Danack\\PHPUnitHelper\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-0": {
+            "DanackTest\\": "test/"
+        }
+    }
+}
+
+
+

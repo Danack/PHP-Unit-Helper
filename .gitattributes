@@ -1,0 +1,4 @@
+/.github        export-ignore
+/containers     export-ignore
+/tests          export-ignore
+/composer.phar  export-ignore
